@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "UserList";
+}
+
+<h2>UserList</h2>
+
+@foreach (var t in ViewBag.UserList)
+{
+ <li> FN - @t.FacultyNumber   Email - @t.Email  Username - @t.UserName</li>
+}
+
